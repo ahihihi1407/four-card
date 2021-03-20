@@ -1,0 +1,156 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+:root {
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+
+  --very-dark-blue: hsl(234, 12%, 34%);
+  --grayish-blue: hsl(229, 6%, 66%);
+  -very-light-gray: hsl(0,0%, 98%);
+}
+
+* {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--very-light-gray);
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: var(--grayish-blue);
+}
+
+.Header > h1 {
+  padding-top: 4rem;
+  padding-bottom: 1.5rem;
+  font-weight: normal;
+}
+
+.Header > h1 > span {
+ font-weight: bold;
+ color: var(--very-dark-blue);
+}
+
+.card-container {
+  margin-top: 4rem;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+  margin: 15px;
+  width: 350px;
+  height: 250px;
+}
+
+.box > h2 {
+  padding-bottom: 20px;
+  color: var(--very-dark-blue);
+}
+
+.box > p {
+  padding-bottom: 40px;
+}
+
+.box > img {
+  display: block;
+  margin-left: 12rem;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
+}
+
+.box-supervisor > .image {
+  background-image: url(images/icon-supervisor.svg);
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 15rem;
+}
+
+.box-supervisor::after {
+  background-color: var(--cyan);
+}
+
+.box-team-builder > .image {
+  background-image: url(images/icon-team-builder.svg);
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 15rem;
+}
+
+.box-team-builder::after {
+  background-color: var(--red);
+}
+
+.box-karma > .image {
+  background-image: url(images/icon-karma.svg);
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 15rem;
+}
+
+.box-karma::after {
+  background-color: var(--orange);
+}
+
+.box-calculator > .image {
+  background-image: url(images/icon-calculator.svg);
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: 15rem;
+}
+
+.box-calculator::after {
+  background-color: var(--blue);
+}
+
+.box-change {
+  transform: translateY(50%);
+}
+
+@media(max-width: 1024px) {
+  .box-change {
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
