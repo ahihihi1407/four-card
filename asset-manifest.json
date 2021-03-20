@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/four-card/static/css/main.3d8be5c4.chunk.css",
+    "main.js": "/four-card/static/js/main.307beec9.chunk.js",
+    "main.js.map": "/four-card/static/js/main.307beec9.chunk.js.map",
+    "runtime-main.js": "/four-card/static/js/runtime-main.230bc7c5.js",
+    "runtime-main.js.map": "/four-card/static/js/runtime-main.230bc7c5.js.map",
+    "static/js/2.851577ae.chunk.js": "/four-card/static/js/2.851577ae.chunk.js",
+    "static/js/2.851577ae.chunk.js.map": "/four-card/static/js/2.851577ae.chunk.js.map",
+    "static/js/3.132eae91.chunk.js": "/four-card/static/js/3.132eae91.chunk.js",
+    "static/js/3.132eae91.chunk.js.map": "/four-card/static/js/3.132eae91.chunk.js.map",
+    "index.html": "/four-card/index.html",
+    "static/css/main.3d8be5c4.chunk.css.map": "/four-card/static/css/main.3d8be5c4.chunk.css.map",
+    "static/js/2.851577ae.chunk.js.LICENSE.txt": "/four-card/static/js/2.851577ae.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/four-card/static/media/icon-team-builder.b885fb58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.230bc7c5.js",
+    "static/js/2.851577ae.chunk.js",
+    "static/css/main.3d8be5c4.chunk.css",
+    "static/js/main.307beec9.chunk.js"
+  ]
+}
